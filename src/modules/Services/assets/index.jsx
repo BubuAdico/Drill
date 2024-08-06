@@ -17,6 +17,7 @@ export { default as img17 } from './16.jpg';
 export { default as img18 } from './1.jpg';
 export { default as img19 } from './18.jpg';
 export { default as img20 } from './29.jpg';
+export { default as img21 } from './12.jpg';
 
 export { default as b1 } from './b1.jpg';
 export { default as f1 } from './f1.jpeg';
