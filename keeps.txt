@@ -1,0 +1,325 @@
+//? Apps CSS default
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+            <section
+                className="
+								flex
+								service_sec_con
+								xl:flex-row
+								lg:flex-row
+								md:flex-row
+								mm:flex-row
+								sm:flex-col
+								ss:flex-col
+								xs:flex-col
+								xr:flex-col
+								se:flex-col
+								sg:flex-col
+								h-auto
+								flex-row
+								w-[100%]
+								"
+            >
+                {/* <section
+                    className="order-last
+									bg-bg-intro
+									lg:w-[50%]
+									xl:w-[50%]
+									md:w-[30%]
+									mm:w-[30%]
+									sm:w-[100%]
+									ss:w-[100%]
+									xs:w-[100%]
+									xr:w-[100%]
+									se:w-[100%]
+									sg:w-[100%]
+									lg:text-4xl
+									xl:text-6xl
+									md:text-4xl
+									mm:text-4xl
+									sm:text-4xl
+									xl:h-full
+									lg:h-full
+									md:h-full
+									mm:h-full
+									sm:h-60
+									"
+                >
+                    <div
+                        className="demo
+									straight_text
+									"
+                    >
+                        <span className="text-orange-600 tracking-widest">
+                            @ space
+                        </span>
+                    </div>
+                </section> */}
+
+                <section
+                    className="w-full 
+										astro1
+										flex
+										flex-col
+										justify-around
+										relative
+										min-h-screen
+										overflow-hidden
+                                        bg-black
+										"
+                >
+                    {/* Fill */}
+                </section>
+
+                <section
+                    className="text-4xl
+									w-full						
+									order-first
+									"
+                >
+                    <section
+                        className="
+                                bg-orange-500/75
+                                service_img2
+                                min-h-screen
+                                relative
+                                flex
+                                flex-col
+                                justify-end
+                                w-full
+                                overflow-hidden
+                                "
+                    >
+                        <div
+                            className="
+										h-full
+										absolute
+										flex
+										flex-col
+										justify-end
+										w-full
+										overlay
+										overflow-hidden
+										"
+                        >
+                            <div
+                                className="h-50
+											transition-all
+											flex
+											flex-col
+											justify-end
+											bg-gradient-to-tr from-orange-600
+											via-orange-600  via-transparent 
+											overflow-hidden
+											"
+                            >
+                                <p
+									className="py-0
+											px-5
+											text-[#fffafa]
+											xl:text-3xl
+											lg:text-2xl
+											md:text-2xl
+											text-2xl
+											overlay-text
+											overflow-hidden
+											text-justify
+											"
+                                >
+                                    There is so much space for you how we do it. Find out everything you can about the different programs and what computer systems they run on.
+                                </p>
+                                <div className="p-5">
+                                    <button
+                                        type="buttom"
+                                        className="
+											bg-bg-intro
+											hover:bg-zinc-900
+											text-[#fffafa]
+											p-1
+											rounded
+											w-[25%]
+											xl:text-3xl
+											lg:text-2xl
+											mm:text-2xl
+											md:text-2xl
+											sm:text-2xl
+											ss:text-xl
+											xs:text-xl
+											overflow-hidden
+											cursor-pointer
+											"
+                                    >
+                                        Hire Us
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+
+
+The navbar 
+
+            <nav
+                className="flex justify-start">
+                <Disclosure as="nav" className="-400 w-full ">
+                    {({ open }) => (
+                        <>
+                            <div
+                                className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                                <div className="relative flex h-16 items-center justify-between">
+                                    <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                                        {/* Mobile menu button*/}
+                                        <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-[#ff4500] hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                            <span className="sr-only">
+                                                Open main menu
+                                            </span>
+                                            {open ? (
+                                                <XMarkIcon
+                                                    className="block h-6 w-6"
+                                                    aria-hidden="true"
+                                                />
+                                            ) : (
+                                                <Bars3Icon
+                                                    className="block h-6 w-6"
+                                                    aria-hidden="true"
+                                                />
+                                            )}
+                                        </Disclosure.Button>
+                                    </div>
+                                    <div
+                                        className="flex flex-1 items-center justify-center sm:items-stretch   sm:justify-between lg:justify-between md:justify-between mm:justify-between">
+                                        <div className="flex flex-shrink-0 items-center">
+                                            <img
+                                                className="block h-8 w-auto lg:hidden"
+                                                src="temlogs.svg"
+                                                width={35}
+                                                alt="Space"
+                                            />
+                                            <img
+                                                className="cursor-pointer hidden h-8 w-auto lg:block"
+                                                src="temlogs.svg"
+                                                width={35}
+                                                alt="Space"
+                                            />
+                                        </div>
+                                        <div className="hidden sm:ml-6 sm:block">
+                                            <div className="flex space-x-4">
+                                                <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-500">
+                                                    <li>
+                                                        <Link to="home" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-white bg-orange-500 rounded md:bg-transparent md:text-orange-500 md:p-0 dark:text-white md:dark:text-orange-500 cursor-pointer" aria-current="page" >Home</Link>
+                                                    </li>
+
+                                                    <li>
+                                                        <Link to="about" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent cursor-pointer" >
+                                                            About
+                                                        </Link>
+                                                    </li>
+
+                                                    <li>
+                                                        <Link to="products" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent cursor-pointer">
+                                                            Products
+                                                        </Link>
+                                                    </li>
+
+                                                    <li>
+                                                        <Link to="services" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent cursor-pointer">
+                                                            Services
+                                                        </Link>
+                                                    </li>
+
+                                                    <li>
+                                                        <Link to="footer" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent cursor-pointer">
+                                                            Contact
+                                                        </Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <Disclosure.Panel className="sm:hidden">
+                                <div className="space-y-1 px-2 pt-2 pb-3">
+                                    <Disclosure.Button>
+                                        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-500">
+                                            <li>
+                                                <Link to="home" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-white bg-orange-500 rounded md:bg-transparent md:text-orange-500 md:p-0 dark:text-white md:dark:text-orange-500 cursor-pointer" aria-current="page" >Home</Link>
+                                            </li>
+
+                                            <li>
+                                                <Link to="about" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent cursor-pointer" >
+                                                    About
+                                                </Link>
+                                            </li>
+
+                                            <li>
+                                                <Link to="products" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent cursor-pointer">
+                                                    Products
+                                                </Link>
+                                            </li>
+
+                                            <li>
+                                                <Link to="services" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent cursor-pointer">
+                                                    Services
+                                                </Link>
+                                            </li>
+
+                                            <li>
+                                                <Link to="footer" smooth={true} offset={50} duration={1000} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-500 dark:hover:text-white md:dark:hover:bg-transparent cursor-pointer">
+                                                    Contact
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </Disclosure.Button>
+                                </div>
+                            </Disclosure.Panel>
+                        </>
+                    )}
+                </Disclosure>
+            </nav>
