@@ -1,4 +1,4 @@
-import { in2, b5, f1, lubOil, hc1, hp1, img10, img12, img13, img14, img2, img20, img3, img7, img9, in1, l1, hd1, hd2, t1 } from './assets'
+import { in2, b5, f1, lubOil, hc1, hp1, img10, img13, img14, img2, img20, img3, img7, img9, in1, l1, hd1, hd2, t1 } from './assets'
 
 export const machines = [
     {
@@ -44,7 +44,7 @@ export const machines = [
         specs: 'this penetrates with 10x force through the ground',
         type: 'fork driller',
         company: 'LGMRT',
-        img: img12
+        img: img10
     },
 
     {
