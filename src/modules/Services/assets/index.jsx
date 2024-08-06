@@ -24,7 +24,7 @@ export { default as hc1 } from './hc1.jpg';
 export { default as in1 } from './in1.jpg';
 
 export { default as l1 } from './l1.jpg';
-export { default as L3 } from './l3.jpg';
+export { default as L3 } from './L3.jpg';
 export { default as L4 } from './l4.jpg';
 export { default as L5 } from './l5.jpg';
 export { default as hp1 } from './hp1.jpg';
