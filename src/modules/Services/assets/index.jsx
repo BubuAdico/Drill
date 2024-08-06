@@ -42,4 +42,4 @@ export { default as b5 } from './b5.jpg';
 
 export { default as t1 } from './t1.jpg';
 export { default as t2 } from './t2.jpg';
-export { default as lubOil } from './lubOil.jpg';
+export { default as lubOil } from './LubOil.jpg';
